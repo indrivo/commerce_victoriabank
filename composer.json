@@ -1,0 +1,23 @@
+{
+    "name": "indrivo/commerce_victoriabank",
+    "type": "drupal-module",
+    "description": "Provides Commerce integration for VictoriaBank",
+    "homepage": "http://drupal.org/project/commerce_victoriabank",
+    "license": "GPL-2.0+",
+    "keywords": ["Drupal"],
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/commerce_victoriabank",
+        "source": "http://cgit.drupalcode.org/commerce_victoriabank"
+    },
+    "require": {
+        "drupal/commerce": "^2.0",
+        "fruitware/victoria-bank-gateway": "dev-master"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    }
+}

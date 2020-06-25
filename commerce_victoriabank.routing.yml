@@ -1,0 +1,6 @@
+commerce_victoriabank.notify:
+  path: '/commerce-victoriabank/ipn'
+  defaults:
+    _controller: '\Drupal\commerce_victoriabank\Controller\PaymentNotificationController::notifyPage'
+  requirements:
+    _access: 'TRUE'

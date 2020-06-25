@@ -1,0 +1,30 @@
+commerce_payment.commerce_payment_gateway.plugin.victoriabank_redirect:
+  type: commerce_payment_gateway_configuration
+  mapping:
+    public_key_path:
+      type: string
+      label: 'Public key path'
+    private_key_path:
+      type: string
+      label: 'Private key path'
+    private_key_password:
+      type: string
+      label: 'Private key password'
+    bank_public_key:
+      type: string
+      label: 'Bank public key'
+    merchant_name:
+      type: string
+      label: 'Merchant name'
+    merchant_url:
+      type: string
+      label: 'Merchant URL'
+    merchant:
+      type: string
+      label: 'Merchant'
+    terminal:
+      type: string
+      label: 'Terminal id'
+    merchant_address:
+      type: string
+      label: 'Merchant Address'
